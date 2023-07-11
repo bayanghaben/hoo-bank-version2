@@ -1,0 +1,38 @@
+.form-replay {
+  display: flex;
+  color: #000000;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 28rem;
+}
+
+.form-replay-input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 0.75rem;
+  background-color: #d1d5db;
+  border-radius: 0.5rem;
+  width: 65%;
+}
+
+.form-replay-btn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 0.75rem;
+  background-color: #10b981;
+  transition-duration: 500ms;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 30%;
+}
+
+.form-replay-btn:hover {
+  opacity: 0.9;
+}

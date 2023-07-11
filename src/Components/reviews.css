@@ -1,0 +1,14 @@
+.reviews {
+  display: flex;
+  position: relative;
+  z-index: 10;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+@media (min-width: 640px) {
+  .reviews {
+    justify-content: flex-start;
+  }
+}
